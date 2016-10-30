@@ -16,6 +16,7 @@ public class TypeInferenceExample {
 			return str1.compareTo(str2);
 		};
 		
+		// str1 str2 的String类型申明可以省略
 		Comparator<String> comparator2 = (str1,str2) -> {
 			return str1.compareTo(str2);
 		};
