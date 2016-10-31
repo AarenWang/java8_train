@@ -2,6 +2,7 @@ package me.wrj.java8.language.methodreference;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
@@ -27,6 +28,7 @@ public class MethodReferenceTest {
 		 
 		 Supplier<String> supplier = String::new;
 		 System.out.println("supplier="+supplier.get());
+		 
 		 
 	}
 

@@ -7,7 +7,6 @@ public interface EwalletPayService {
 	public String pay(String orderId);
 	
 	public  String toString();
-
 	
 	//public  String toString2();
 

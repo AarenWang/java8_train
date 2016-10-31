@@ -21,6 +21,8 @@ public class TypeInferenceExample {
 			return str1.compareTo(str2);
 		};
 		
+		
+		
 	}
 
 
