@@ -1,14 +1,16 @@
 package me.wrj.java8.language.functionalinterface;
 
 
-@FunctionalInterface
+//@FunctionalInterface
 public interface EwalletPayService {
 
-	public String pay(String orderId);
+	//public String pay(String orderId);
 	
-	public  String toString();
+	//public  String toString();
 	
-	//public  String toString2();
+	default  String toString2(){
+	    return "";
+	}
 
   
 }

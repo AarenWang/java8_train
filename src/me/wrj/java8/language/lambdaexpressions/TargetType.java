@@ -11,7 +11,7 @@ public class TargetType {
         System.out.println(square.operate(3));
 
         // lambda必须是函数式接口实例
-        // Object o = x -> System.out.println(x);
+        //Object o = x -> System.out.println(x);
 
         Consumer<?> c = x -> System.out.println(x);
         Object o = c;

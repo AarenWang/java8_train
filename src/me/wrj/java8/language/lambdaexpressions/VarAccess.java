@@ -14,7 +14,7 @@ public class VarAccess {
             @Override
             public void run() {
                 System.out.println(i);
-                // i = 1; 都不能对i进行赋值
+                // i = 1; //都不能对i进行赋值
             }
         });
 

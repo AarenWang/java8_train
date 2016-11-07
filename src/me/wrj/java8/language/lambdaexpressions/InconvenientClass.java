@@ -21,6 +21,8 @@ public class InconvenientClass {
 		
 		
 		List<String> nameList = Arrays.asList("a","b","c");
+		nameList.forEach(str -> System.out.println(str));
+		
 		List<String> upperNameList = new ArrayList<String>();
 		for(String name : nameList){
 		    upperNameList.add(name.toLowerCase());

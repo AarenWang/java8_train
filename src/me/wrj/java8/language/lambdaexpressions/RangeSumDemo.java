@@ -12,7 +12,6 @@ public class RangeSumDemo {
 	public static void main(String[] args) {
 		RangeSum rangeSum = new RangeSumImpl();
 		long sum1 = rangeSum.rangeSum(1, 100, new CalcFunctor(){
-
 			@Override
 			public long calc(long num) {
 				return num * num;
